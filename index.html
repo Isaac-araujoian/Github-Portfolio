@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Portfólio | Isaac Araújo - Desenvolvedor Web</title>
+    <link rel="stylesheet" href="CSS-Portfolio.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Isaac Araújo</h1>
+        <p>Técnico em Informática para Web</p>
+        <nav class="nav">
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobre" class="section sobre-container">
+            <div class="sobre-texto">
+                <h2>Sobre Mim</h2>
+                <p>
+                    Apaixonado por tecnologia, desenvolvo soluções web modernas e funcionais.
+                    Domino ferramentas como HTML, CSS, JavaScript, entre outras aplicações web, busco sempre evoluir como profissional técnico.
+                    Meu objetivo é trabalhar na criação de projetos inovadores como desenvolvedor.
+                </p>
+                <div class="skills">
+                    <h3>Minhas Habilidades</h3>
+                    <div class="skill-tags">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                        <span>Design Responsivo</span>
+                        <span>Git/GitHub</span>
+                        <span>Linguagem C</span>
+                        <span>Java</span>
+                        <span>Implantação e Sistemas</span>
+                        <span>Banco de Dados</span>
+                        <span>PHP</span>
+                    </div>
+                </div>
+            </div>
+            <div class="sobre-foto">
+                <img src="Imagem.webp">
+            </div>
+        </section>
+
+        <section id="projetos" class="section">
+            <h2>Projetos</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <h3>Landing Page Responsiva</h3>
+                    <p>Site institucional responsivo e otimizado para diversos dispositivos, desenvolvido com HTML, CSS e JavaScript.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/seuusuario/landingpage" target="_blank"><i class="fab fa-github"></i> Ver no GitHub</a>
+                        <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Ver Projeto</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <h3>Cadastro de Usuários</h3>
+                    <p>Formulário de cadastro interativo com validação de dados e armazenamento local (localStorage) para persistência.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/seuusuario/cadastro-js" target="_blank"><i class="fab fa-github"></i> Ver no GitHub</a>
+                        <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Ver Projeto</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="section">
+            <h2>Vamos Conversar?</h2>
+            <form id="formulario" class="form">
+                <input type="text" name="nome" placeholder="Seu nome" required />
+                <input type="email" name="email" placeholder="Seu melhor email" required />
+                <textarea name="mensagem" placeholder="Sua mensagem..." required></textarea>
+                <button type="submit">Enviar Mensagem</button>
+                <p id="mensagem-status"></p>
+            </form>
+
+            <div class="contato-links">
+                <a href="index.html" target="_blank" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/Isaac-araujoian" target="_blank" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="mailto: isaac.araujoian@gmail.com" aria-label="E-mail">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 Isaac Araújo. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="JS-Portfolio.js"></script>
+</body>
+</html>
